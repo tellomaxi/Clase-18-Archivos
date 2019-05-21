@@ -1,0 +1,35 @@
+                                      ARCHIVOS
+
+Existen dos tipos de archivos:
+
+-Binarios(codigo maquina/binario): Lo voy a poder trabajar con estructuras.
+
+-Texto(texto plano):
+
+Ejemplo el numero 12 en binario ocupa 4 bytes y en texto ocupa 2.
+
+Otro ejemplo, para guardar el numero 45678 en texto, ocupa 5 bytes y en binario ocupa 2.
+
+La funcion fopen: se utiliza para abrir el archivo.
+La funcion fclose: se usa para cerrar el archivo abierto.
+fread: lee los datos que tengo en el archivo.
+fwrite: lo q va a hacer es escribir lo que tengo en mi archivo.
+feof: file end of file.
+rewind: revobina el archivo
+fseek: me va a permitir moverme desde donde estoy tantos bytes como yo necesite y me voy a poder mover a partir del comienzo, del final o donde este el señalador
+ftell: me dice la cant de bytes q hay desde un comienzo y un final de un archivo.
+getc:Es como gets pero con un solo caracter
+putc: es como put pero con trabajo con archivos(es como printf).
+fgets: igual que gets.
+fputs:
+fscanf: igual q scanf pero con archivos. Le vamos a dar ese dato a una variable a traves de un archivo en vez de con el teclado.
+fprintf: vamos a imprimir en vez de en pantalla, vamos a imprimir en un archivo.
+
+
+
+
+tener nombre[] y tener *nombre es lo mismo, pero se empieza a usar la segunda.
+
+
+
+
